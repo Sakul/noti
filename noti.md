@@ -9,7 +9,7 @@
 
 * 1.1 ลำดับเก่ากว่า client แสดงว่าเคยเห็นข้อความนี้แล้ว ดังนั้น client ก็จะไม่สนใจ message นี้ และถือว่าจบการทำงานทั้งหมด
 
-![a](notitPlantUML\\notit.png)
+![a](noti/notitPlantUML/notit.png)
 
 * 1.2 ลำดับต่อกับ client แสดงว่าเป็นข้อความถัดไปที่ client ควรจะได้รับ ดังนั้นก็เอา message นี้ไปเก็บลงกล่อง 1 แล้วทำการ Call endpoint ต่อ
 
